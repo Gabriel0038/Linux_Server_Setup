@@ -24,4 +24,14 @@ This is a vital step in order to make sure that the system is up to date with th
 
 The 2 packages are on "phase 20%", so the update was not yet rolled for all the systems. 
 
-The rest of 10 packages displayed after the "apt update" were upgraded. 
+10 packages were successfully upgraded after running 'apt upgrade'.
+
+## System Status after Upgrade
+
+1. uname -a = use to check the system informantion
+
+![uname](https://github.com/user-attachments/assets/b289b8da-d9c6-4540-9c81-e6d48f993ca4)
+
+2. uptime = use to check the running time of the system
+
+![uptime](https://github.com/user-attachments/assets/bbe0453c-355c-484e-b5a5-f03ba811835b)
