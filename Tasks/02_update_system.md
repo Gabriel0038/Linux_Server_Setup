@@ -14,6 +14,14 @@ This is a vital step in order to make sure that the system is up to date with th
 
 ## Verification
 
-1. apt list --upgradable - here the system displays the upgraded packages 
+1. apt list --upgradable - command used to see if there are others upgradable packages
 
 ![aptUpgradable](https://github.com/user-attachments/assets/f91277c8-ea81-4d76-bc68-c32782dd9332)
+
+2. apt policy - runned to check the 2 packages left unupgraded.
+
+![aptPolicy](https://github.com/user-attachments/assets/d76cd52c-5004-4acd-b557-0652400f3bd6)
+
+The 2 packages are on "phase 20%", so the update was not yet rolled for all the systems. 
+
+The rest of 10 packages displayed after the "apt update" were upgraded. 
