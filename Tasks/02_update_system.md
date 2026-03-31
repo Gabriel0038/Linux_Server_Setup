@@ -2,6 +2,10 @@
 
 This is a vital step in order to make sure that the system is up to date with the latest OS udpates. 
 
+## Objective
+
+Update the packages, upgrada and verify the results.
+
 ## Steps and commands used
 
 1.  sudo apt update - used to update the packages that can be upgraded 
