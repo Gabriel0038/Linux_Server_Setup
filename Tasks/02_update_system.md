@@ -4,7 +4,7 @@ This is a vital step in order to make sure that the system is up to date with th
 
 ## Steps and commands used
 
-1.  sudo apt update - use to update the packages that can be upgraded 
+1.  sudo apt update - used to update the packages that can be upgraded 
 
 ![aptUpdate](https://github.com/user-attachments/assets/d437802b-197c-47af-80fc-48c120a573a4)
 
@@ -18,7 +18,7 @@ This is a vital step in order to make sure that the system is up to date with th
 
 ![aptUpgradable](https://github.com/user-attachments/assets/f91277c8-ea81-4d76-bc68-c32782dd9332)
 
-2. apt policy - command run to check the 2 packages left unupgraded.
+2. apt policy fwupd libfwupd2 - used to check why 2 packages were not upgraded.
 
 ![aptPolicy](https://github.com/user-attachments/assets/d76cd52c-5004-4acd-b557-0652400f3bd6)
 
@@ -28,10 +28,10 @@ The 2 packages are on "phase 20%", so the update was not yet rolled for all the 
 
 ## System Status after Upgrade
 
-1. uname -a = use to check the system informantion
+1. uname -a = used to check the system informantion
 
 ![uname](https://github.com/user-attachments/assets/b289b8da-d9c6-4540-9c81-e6d48f993ca4)
 
-2. uptime = use to check the running time of the system
+2. uptime = used to check the running time of the system
 
 ![uptime](https://github.com/user-attachments/assets/bbe0453c-355c-484e-b5a5-f03ba811835b)
