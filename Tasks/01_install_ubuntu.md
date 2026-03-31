@@ -20,11 +20,14 @@ The resources were allocated based on the actual and future needs of the project
 5. Logged in with the initial user created in VB.
 6. Completed installation and rebooted system.
 
-## Result
+## Results & System Information
 
 Ubuntu Server installed successfully.
 
 <img width="601" height="214" alt="image" src="https://github.com/user-attachments/assets/5d31974a-a9a2-4d3a-91cb-9323a86d0f0d" />
+<img width="330" height="80" alt="image" src="https://github.com/user-attachments/assets/9bbfa855-b4f9-44a3-8e10-734237b5c27d" />
+<img width="330" height="80" alt="image" src="https://github.com/user-attachments/assets/c476917a-57a2-496d-aca5-27dc5d538d01" />
+
 
 ## Notes
 
