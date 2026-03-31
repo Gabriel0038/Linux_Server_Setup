@@ -3,11 +3,14 @@
 This project is designed as a starting one with the purpose of practicing and learning basic concepts of server administration. 
 
 Tasks:
-  1. fresh install of Ubuntu LTS 24.04 on VM
-  2. update system
-  3. create a working group and users within the group
-  4. ssh setup based on static IP
-  5. firewall
-  6. install tools
-  7. install docker
-  8. install nginx
+  1. Fresh install Ubuntu LTS 24.04 on VM
+  2. Update system (apt update && upgrade)
+  3. Set hostname
+  4. Set timezone
+  5. Create users and groups
+  6. Configure SSH (disable root login, keys)
+  7. Configure firewall (ufw)
+  8. Install basic tools
+  9. Install Docker
+  10. Install nginx
+  11. Verify services and logs
