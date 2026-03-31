@@ -29,10 +29,12 @@ Ubuntu Server installed successfully.
 ![System Info](https://github.com/user-attachments/assets/5d31974a-a9a2-4d3a-91cb-9323a86d0f0d)
 
 ### Ubuntu Version
+   command: lsb_release -a
 
 ![Ubuntu Version](https://github.com/user-attachments/assets/9bbfa855-b4f9-44a3-8e10-734237b5c27d)
 
 ### Disk Layout
+   command: lsblk
 
 ![Disk Layout](https://github.com/user-attachments/assets/c476917a-57a2-496d-aca5-27dc5d538d01)
 
