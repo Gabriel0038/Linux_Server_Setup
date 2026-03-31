@@ -2,7 +2,7 @@
 
 This is a vital step in order to make sure that the system is up to date with the latest OS udpates. 
 
-## Objective
+## Objectives
 
 Update the packages, upgrada and verify the results.
 
