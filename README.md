@@ -7,7 +7,7 @@ Tasks:
   2. Update system (apt update && upgrade)
   3. Set hostname
   4. Set timezone
-  5. Create users and groups
+  5. Create and set permissions for users and groups
   6. Configure SSH (disable root login, keys)
   7. Configure firewall (ufw)
   8. Install basic tools
