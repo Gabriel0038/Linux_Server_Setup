@@ -22,4 +22,6 @@ Set a custom hostname for the server.
 
 1. sudo nano /etc/hosts - used to edit the /etc/hosts file - added "127.0.1.1 project-server" & write the file
 
+   Verified with cat /etc/hosts
+
 ![/etc/hosts](https://github.com/user-attachments/assets/1c6ceebb-2766-4635-9f0a-e307659f4b40)
