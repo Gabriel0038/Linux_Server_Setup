@@ -4,7 +4,7 @@ This project is designed as a starting one with the purpose of practicing and le
 
 Tasks:
   1. Fresh install Ubuntu LTS 24.04 on VM
-  2. Update system (apt update && upgrade)
+  2. Update system (apt update & upgrade)
   3. Set hostname
   4. Set timezone
   5. Create and set permissions for users and groups
