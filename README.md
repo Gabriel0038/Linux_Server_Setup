@@ -1,6 +1,6 @@
 # Linux_Server_Setup
 
-This project is designed as a starting project with the purpose of documenting basic concepts of server administration.
+This project is intended as a starting point for documenting and practicing basic server administration concepts.
 
 Tasks:
   1. [Fresh install Ubuntu LTS 24.04 on VM](https://github.com/Gabriel0038/Linux_Server_Setup/blob/main/Tasks/01_install_ubuntu.md)
