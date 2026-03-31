@@ -14,7 +14,7 @@ Install a fresh Ubuntu Server 24.04 on a virtual machine - for this I've used Or
    - CPU: 2 cores
    - Disk: 40 GB
   
-The resources were allocated based on the actual and future needs of the project. 
+      The resources were allocated based on the actual and future needs of the project. 
 
 4. Followed installation wizard.
 5. Logged in with the initial user created in VB.
