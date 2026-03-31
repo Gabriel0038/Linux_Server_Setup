@@ -18,7 +18,7 @@ This is a vital step in order to make sure that the system is up to date with th
 
 ![aptUpgradable](https://github.com/user-attachments/assets/f91277c8-ea81-4d76-bc68-c32782dd9332)
 
-2. apt policy - runned to check the 2 packages left unupgraded.
+2. apt policy - command run to check the 2 packages left unupgraded.
 
 ![aptPolicy](https://github.com/user-attachments/assets/d76cd52c-5004-4acd-b557-0652400f3bd6)
 
