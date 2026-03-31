@@ -5,7 +5,7 @@ This project is intended as a starting point for documenting and practicing basi
 Tasks:
   1. [Fresh install Ubuntu LTS 24.04 on VM](https://github.com/Gabriel0038/Linux_Server_Setup/blob/main/Tasks/01_install_ubuntu.md)
   2. [Update system](https://github.com/Gabriel0038/Linux_Server_Setup/blob/main/Tasks/02_update_system.md)
-  3. Set hostname
+  3. [Set hostname](https://github.com/Gabriel0038/Linux_Server_Setup/blob/main/Tasks/03_set_hostname)
   4. Set timezone
   5. Create and set permissions for users and groups
   6. Configure SSH (disable root login, keys)
