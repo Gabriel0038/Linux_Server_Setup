@@ -1,4 +1,4 @@
-<img width="382" height="121" alt="image" src="https://github.com/user-attachments/assets/d521e222-e964-4f3e-b82b-be9063b1efee" /># Timezone set
+# Timezone set
 
 This step is important for correctly track logs, scheduled tasks and easier debugging. 
 
