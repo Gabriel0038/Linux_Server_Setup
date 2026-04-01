@@ -13,9 +13,14 @@ This tasks will be break in sub-tasks.
 3. Check the groups and users created
 4. Create a working director
 5. Create executable script for latest permissions test
-6. Set owneship
-7. Set permissions
-8. Create colaborative folder
+6. Set owneship - owner: devTL / group owner: devlead
+7. Set permissions:
+   - devTL: rwx
+   - dev1:rw-
+   - dev2:rw-
+   - others: ---
+8. Create colaborative folder:
+    - all users can write; new files assigned to devlead group via setgid
 9. Test each user permissions
 
 ## Sub-Task Progress
