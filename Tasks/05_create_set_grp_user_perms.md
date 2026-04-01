@@ -8,7 +8,7 @@ This tasks will be break in sub-tasks.
 
 ## Sub-Tasks
 
-1. Create 2 groups: developers & devtls
+1. Create 2 groups: developers & devlead
 2. Create 3 users: dev1 & dev2 & devTL1
 3. Check the groups and users created
 4. Create a working director
