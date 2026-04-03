@@ -15,17 +15,16 @@ This tasks will be break in sub-tasks.
    - dev1 & dev2
    - devTL1
 3. Assign dev1 & dev2 to develpers / assign devTL to devlead
-4. Verify above steps
-5. Create a working director
-6. Create executable script for further permissions test
-7. Set director owneship - owner: devTL / group owner: developers
-8. Set director permissions:
+4. Create a working director
+5. Create executable script for further permissions test
+6. Set director owneship - owner: devTL / group owner: developers
+7. Set director permissions:
    - Owner: devTL -> rwx
    - Group: developers -> rw-
    - Others -> ---
-9. Create colaborative folder:
+8. Create colaborative folder:
     - all users can write; new files assigned to developers via setgid
-10. Test each user permissions
+9. Test each user permissions
 
 ## Sub-Task Progress
 
@@ -43,11 +42,20 @@ This tasks will be break in sub-tasks.
 
 ![grepuser](https://github.com/user-attachments/assets/439d9c4c-9fef-43f6-b11d-22cee8b7eea8)
 
- ### Sub3.
+### Sub3.
 
-For 3rd sub-task I have to find each ID for new groups created and assign the 3 new users to the relevant groups. 
+1. For 3rd sub-task I have to find each ID for new groups created and assign the 3 new users to the relevant groups. 
 cat /etc/group | grep dev - used again to identify group IDs. 
 In this case we have the following IDs:
    - developers: ID = 1001
    - devlead: ID = 1002
+
+2. usermod -g - used to move users under relevant groups
+3. cat /etc/passwd | grep dev - to verify
+
+![usermod](https://github.com/user-attachments/assets/c22b11be-f4d2-42c6-af7f-8d0cd31e5761)
+
+### Sub4. 
+
+
  
