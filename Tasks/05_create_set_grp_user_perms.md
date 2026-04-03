@@ -14,8 +14,11 @@ This tasks will be break in sub-tasks.
 2. Create 3 users:
    - dev1 & dev2
    - devTL1
-3. Assign dev1 & dev2 to develpers / assign devTL to devlead
+3. Assign:
+   - dev1 & dev2 to develpers
+   - devTL to devlead & developers
 4. Create a working director
+   - workingdir to be created in /srv
 5. Create executable script for further permissions test
 6. Set director owneship - owner: devTL / group owner: developers
 7. Set director permissions:
@@ -55,7 +58,16 @@ In this case we have the following IDs:
 
 ![usermod](https://github.com/user-attachments/assets/c22b11be-f4d2-42c6-af7f-8d0cd31e5761)
 
+4. As devTL1 should be in both groups => usermod -aG 1001 devTL1 - used to add the user in the developers group also. 
+
+![devTL](https://github.com/user-attachments/assets/cd1349c1-d7f4-4f71-83d9-33ff5f597499)
+
 ### Sub4. 
 
+- cd /srv - used to move the directory
+- sudo mkdir workingdir - used to create the dir
+- ls - used to verify
+
+![mkdir](https://github.com/user-attachments/assets/7732ca5b-2150-43e9-a259-cfb490f288ba)
 
  
