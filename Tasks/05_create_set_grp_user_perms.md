@@ -11,22 +11,38 @@ This tasks will be break in sub-tasks.
 1. Create 2 groups:
    - developers
    - devlead
-3. Create 3 users:
+2. Create 3 users:
    - dev1 & dev2
    - devTL1
-4. Assign dev1 & dev2 to develpers / assign devTL to devlead
-5. Verify above steps
-6. Create a working director
-7. Create executable script for further permissions test
-8. Set director owneship - owner: devTL / group owner: developers
-9. Set director permissions:
+3. Assign dev1 & dev2 to develpers / assign devTL to devlead
+4. Verify above steps
+5. Create a working director
+6. Create executable script for further permissions test
+7. Set director owneship - owner: devTL / group owner: developers
+8. Set director permissions:
    - Owner: devTL -> rwx
    - Group: developers -> rw-
    - Others -> ---
-11. Create colaborative folder:
+9. Create colaborative folder:
     - all users can write; new files assigned to developers via setgid
-12. Test each user permissions
+10. Test each user permissions
 
 ## Sub-Task Progress
 
-1. 
+### Sub1. 
+
+1. sudo groupadd developers & sudo groupadd devlead - used to create the groups.
+2. cat /etc/group | grep dev - pipe to check that the groups were created 
+
+![grepdev](https://github.com/user-attachments/assets/d4788fe5-fd25-4d22-bd93-cb7c2c741a25)
+
+### Sub2. 
+
+1. sudo useradd - used to create new users
+2. cat /etc/passwd | grep dev - pipe for verification
+
+![grepuser](https://github.com/user-attachments/assets/439d9c4c-9fef-43f6-b11d-22cee8b7eea8)
+
+ ### Sub3.
+
+ 
