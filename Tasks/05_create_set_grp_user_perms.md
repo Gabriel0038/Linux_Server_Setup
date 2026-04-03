@@ -45,4 +45,9 @@ This tasks will be break in sub-tasks.
 
  ### Sub3.
 
+For 3rd sub-task I have to find each ID for new groups created and assign the 3 new users to the relevant groups. 
+cat /etc/group | grep dev - used again to identify group IDs. 
+In this case we have the following IDs:
+   - developers: ID = 1001
+   - devlead: ID = 1002
  
