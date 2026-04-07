@@ -94,7 +94,7 @@ Same steps are applied for the deploy.sh file
 
 ### Sub7. 
 
-- cmod 760 /srv/workingdir - used to set the dir permissions: 7 = rwx for owner, 6 = rw for grp, = --- for others
+- chmod 760 /srv/workingdir - used to set the dir permissions: 7 = rwx for owner, 6 = rw for grp, = --- for others
 - sudo ls -ld /srv/workingdir - used to verify the changes
 
 ![dirperms](https://github.com/user-attachments/assets/64b1ef62-33f1-4174-bc2c-b020d8314abb)  
