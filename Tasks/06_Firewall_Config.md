@@ -7,7 +7,6 @@ This task will be break in smaller sub-tasks.
 ## Sub-Tasks:
 
 1. Install firewall (UFW)
-2. Configure default firewall policies
 3. Allow SSH traffic
 4. Enable firewall and verify rules
 
@@ -23,20 +22,18 @@ sudo ufw status - used to check the current firewall status -
 
 ![status](https://github.com/user-attachments/assets/0e2b7837-0f14-41ed-9cf1-a6302b4af294)
 
-### Sub2. 
+### Sub2.
+
+TO BE COMPLETED AFTER SSH INSTALLATION
+
+### Sub3. 
+
+sudo ufw enable - used to enable the ufw firewall
+
+![ufwenable](https://github.com/user-attachments/assets/100db9b7-0647-4012-a8c4-e5861d00659a) 
 
 sudo ufw status verbose - used to check full policies -
 
 ![verbose](https://github.com/user-attachments/assets/713c840e-ed53-4891-8ffa-b5f01994e635)
 
 current policies are: deny incoming & allow outgoing = this is standard and do not modify this
-
-### Sub3.
-
-TO BE COMPLETED AFTER SSH INSTALLATION
-
-### Sub4. 
-
-sudo ufw enable - used to enable the ufw firewall
-
-![ufwenable](https://github.com/user-attachments/assets/100db9b7-0647-4012-a8c4-e5861d00659a) 
