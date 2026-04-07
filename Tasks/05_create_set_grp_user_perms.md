@@ -77,6 +77,11 @@ In this case we have the following IDs:
 
 ![touchfile](https://github.com/user-attachments/assets/d4441f1a-5f9f-4e69-a24f-3ef8840f7800)
 
+- sudo nano deploy.sh - used to edit the file and added a simple output command. 
+
+![nanodis](https://github.com/user-attachments/assets/5f953b88-657b-4a04-af8b-a4e30199b353)
+
+
 ### Sub6. 
 
 
