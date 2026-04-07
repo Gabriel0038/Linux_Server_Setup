@@ -70,4 +70,15 @@ In this case we have the following IDs:
 
 ![mkdir](https://github.com/user-attachments/assets/7732ca5b-2150-43e9-a259-cfb490f288ba)
 
+### Sub5.
+
+- touch deploy.sh - used to create a file
+- ls to verify it
+
+![touchfile](https://github.com/user-attachments/assets/d4441f1a-5f9f-4e69-a24f-3ef8840f7800)
+
+### Sub6. 
+
+
+
  
