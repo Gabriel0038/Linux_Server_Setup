@@ -7,7 +7,7 @@ Tasks:
   2. [Update system](https://github.com/Gabriel0038/Linux_Server_Setup/blob/main/Tasks/02_update_system.md)
   3. [Set hostname](https://github.com/Gabriel0038/Linux_Server_Setup/blob/main/Tasks/03_set_hostname)
   4. [Set timezone](https://github.com/Gabriel0038/Linux_Server_Setup/blob/main/Tasks/04_set_timezone.md)
-  5. Create and set permissions for users and groups
+  5. [Create and set permissions for users and groups](https://github.com/Gabriel0038/Linux_Server_Setup/blob/main/Tasks/05_create_set_grp_user_perms.md)
   6. Configure SSH (disable root login, keys)
   7. Configure firewall (ufw)
   8. Install basic tools
