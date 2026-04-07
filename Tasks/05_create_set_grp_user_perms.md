@@ -112,7 +112,6 @@ Same steps are applied for the deploy.sh file
 
 ![sharedperms](https://github.com/user-attachments/assets/d96a9431-7d0d-465f-b815-5f02e8b18441)
 
+- chmod g+s - used to assign new files created in shared to developers group
 
-### EXTRA STEP:
-
-- umask 
+![setgid](https://github.com/user-attachments/assets/2ac4952d-4886-4ec6-a1de-8fb79c8d2e94)
