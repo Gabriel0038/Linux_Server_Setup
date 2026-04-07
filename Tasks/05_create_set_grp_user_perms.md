@@ -84,6 +84,10 @@ In this case we have the following IDs:
 
 ### Sub6. 
 
+- chown devTL1 /srv/workingdir - used to set the directory owner
+- chgrp developers /srv/workindir - used to set the group owner
+- ls -ld /srv/workingdir - used to verify the changed
 
+![ownership](https://github.com/user-attachments/assets/f0c34203-621a-44e6-a9bb-97512687411a)
 
  
