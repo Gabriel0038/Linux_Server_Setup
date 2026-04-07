@@ -1,4 +1,4 @@
-[]# Firewall configuration
+# Firewall configuration
 
 This task is crucial for the server security, especially in the initial server configuration. The Firewall will act as the primary line of defense against unauthorized access and malicious traffic
 
