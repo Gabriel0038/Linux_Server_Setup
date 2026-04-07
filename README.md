@@ -9,7 +9,7 @@ Tasks:
   4. [Set timezone](https://github.com/Gabriel0038/Linux_Server_Setup/blob/main/Tasks/04_set_timezone.md)
   5. [Create and set permissions for users and groups](https://github.com/Gabriel0038/Linux_Server_Setup/blob/main/Tasks/05_create_set_grp_user_perms.md)
   6. [Configure firewall (ufw)](https://github.com/Gabriel0038/Linux_Server_Setup/blob/main/Tasks/06_Firewall_Config.md)
-  7. Configure SSH (disable root login, keys)
+  7. [Configure SSH](https://github.com/Gabriel0038/Linux_Server_Setup/blob/main/Tasks/07_SSH_Config.md)
   8. Install basic tools
   9. Install Docker
   10. Install nginx
