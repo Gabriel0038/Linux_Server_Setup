@@ -27,7 +27,6 @@ This tasks will be break in sub-tasks.
    - Others -> ---
 8. Create colaborative folder:
     - all users can write; new files assigned to developers via setgid
-9. Test each user permissions
 
 ## Sub-Task Progress
 
@@ -100,3 +99,20 @@ Same steps are applied for the deploy.sh file
 
 ![dirperms](https://github.com/user-attachments/assets/64b1ef62-33f1-4174-bc2c-b020d8314abb)  
 
+- same permissions were applied to deploy.sh file from the directory. 
+
+### Sub8. 
+
+- sudo mkdir shared - used inside /srv/workingdir to create a shared directory
+- check the current permissions
+
+![shared](https://github.com/user-attachments/assets/8dc60112-4d9d-463d-a33c-a486c6743e4b)
+
+- chmod, chown and chgrp used to set permissions, owner and group owner for the shared file
+
+![sharedperms](https://github.com/user-attachments/assets/d96a9431-7d0d-465f-b815-5f02e8b18441)
+
+
+### EXTRA STEP:
+
+- umask 
