@@ -1,4 +1,4 @@
-# Firewall configuration
+[]# Firewall configuration
 
 This task is crucial for the server security, especially in the initial server configuration. The Firewall will act as the primary line of defense against unauthorized access and malicious traffic
 
@@ -25,7 +25,15 @@ sudo ufw status - used to check the current firewall status -
 
 ### Sub2. 
 
+sudo ufw status verbose - used to check full policies -
+
+![verbose](https://github.com/user-attachments/assets/713c840e-ed53-4891-8ffa-b5f01994e635)
+
+current policies are: deny incoming & allow outgoing = this is standard and do not modify this
+
 ### Sub3.
+
+TO BE COMPLETED AFTER SSH CONNECTION CREATED
 
 ### Sub4. 
 
