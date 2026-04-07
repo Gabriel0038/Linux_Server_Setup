@@ -33,7 +33,7 @@ current policies are: deny incoming & allow outgoing = this is standard and do n
 
 ### Sub3.
 
-TO BE COMPLETED AFTER SSH CONNECTION CREATED
+TO BE COMPLETED AFTER SSH INSTALLATION
 
 ### Sub4. 
 
