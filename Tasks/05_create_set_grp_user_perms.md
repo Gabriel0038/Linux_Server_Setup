@@ -81,13 +81,22 @@ In this case we have the following IDs:
 
 ![nanodis](https://github.com/user-attachments/assets/5f953b88-657b-4a04-af8b-a4e30199b353)
 
-
 ### Sub6. 
 
 - chown devTL1 /srv/workingdir - used to set the directory owner
 - chgrp developers /srv/workindir - used to set the group owner
-- ls -ld /srv/workingdir - used to verify the changed
+- ls -ld /srv/workingdir - used to verify the changes
 
 ![ownership](https://github.com/user-attachments/assets/f0c34203-621a-44e6-a9bb-97512687411a)
 
- 
+Same steps are applied for the deploy.sh file
+
+![deployperm](https://github.com/user-attachments/assets/c5ed62ae-6276-4815-b2c4-4baf6194c5a8)
+
+### Sub7. 
+
+- cmod 760 /srv/workingdir - used to set the dir permissions: 7 = rwx for owner, 6 = rw for grp, = --- for others
+- sudo ls -ld /srv/workingdir - used to verify the changes
+
+![dirperms](https://github.com/user-attachments/assets/64b1ef62-33f1-4174-bc2c-b020d8314abb)  
+
