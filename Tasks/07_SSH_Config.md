@@ -13,3 +13,17 @@ I will set SSH connection for controlling server remotely, for managing infrastr
 4. sudo systemctl start ssh - to start the service
 
 ![sshstarted](https://github.com/user-attachments/assets/d2ecd9d4-eb21-4571-af7b-24557e3e157d)
+
+
+Issue happened: 
+
+1. despite the ssh being enabled, connecting using the shell is receving a timeout
+
+What I did:
+- ping 192.xx.xx.xx - pinged the VM from windows shell to check the discoverability
+- sudo ss -tulpn | grep :22 - checked if the ssh listen to all ports
+- sudo ufw status + sudo ufw allow ssh - checked the firewall status and allowed ssh in firewall
+
+Results: 
+
+**ssh connection established between server and windows shell. **
