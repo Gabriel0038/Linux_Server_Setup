@@ -21,7 +21,7 @@ Issue happened:
 
 What I did:
 - ping 192.xx.xx.xx - pinged the VM from windows shell to check the discoverability
-- sudo ss -tulpn | grep :22 - checked if the ssh listen to all port 22 (standard port for ssh)
+- sudo ss -tulpn | grep :22 - checked if the ssh listen to port 22 (standard port for ssh)
 - sudo ufw status + sudo ufw allow ssh - checked the firewall status and allowed ssh in firewall
 
 Results: 
