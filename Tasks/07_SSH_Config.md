@@ -41,10 +41,10 @@ Steps:
 - Set:
     dhcp4: false
     addresses:
-      - 192.168.x.x/24
+      - 192.xx.xx.xx/24
     routes:
       - to: default
-        via: 192.168.x.x
+        via: 192.xx.xx.xx
     nameservers:
       addresses:
         - 8.8.8.8
