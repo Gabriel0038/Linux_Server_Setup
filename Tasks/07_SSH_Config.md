@@ -27,3 +27,19 @@ What I did:
 Results: 
 
 **ssh connection established between server and windows shell. **
+
+
+Issue faced after rebooting - ssh via specified IP not working
+
+Steps to solve:
+  - set dhcp on false to avoid dynamic IP
+  - nano the yaml file to add: 
+     dhcp4: false
+      addresses:
+        - 192.x.x.x
+      routes:
+        - to: default
+          via: 192.x.x.x
+      nameservers:
+        addresses:
+          - 8.8.8.8
