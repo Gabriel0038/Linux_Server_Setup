@@ -26,20 +26,28 @@ What I did:
 
 Results: 
 
-**ssh connection established between server and windows shell. **
+- SSH connection established between the server and Windows.
 
+Issue:
+- After reboot, SSH using the expected IP address no longer worked because the server received a different IP address from DHCP.
 
-Issue faced after rebooting - ssh via specified IP not working
+Resolution:
+- Configure a static IP address using Netplan.
 
-Steps to solve:
-  - set dhcp on false to avoid dynamic IP
-  - nano the yaml file to add: 
-     dhcp4: false
+Steps:
+- Edit the Netplan configuration:
+  sudo nano /etc/netplan/50-cloud-init.yaml
+
+- Set:
+    dhcp4: false
+    addresses:
+      - 192.168.x.x/24
+    routes:
+      - to: default
+        via: 192.168.x.x
+    nameservers:
       addresses:
-        - 192.x.x.x
-      routes:
-        - to: default
-          via: 192.x.x.x
-      nameservers:
-        addresses:
-          - 8.8.8.8
+        - 8.8.8.8
+
+- Apply the configuration:
+  sudo netplan apply
